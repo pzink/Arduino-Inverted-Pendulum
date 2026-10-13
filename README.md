@@ -6,6 +6,8 @@ Derived from krz4tw's [Inverted-Pendulum-PID-control](https://github.com/krz4tw/
 
 ## Hardware
 
+Built with an old linear slide and an Arduino Mega.
+
 1. An Adafruit Motor Shield driving one DC motor that moves the cart (`AFMotor`).
 2. Two quadrature encoders, one for the cart's position and one for the pendulum's angle (`Encoder`). A full pendulum turn is 1024 counts.
 3. Two end-stop switches, on pins 9 and 10.
