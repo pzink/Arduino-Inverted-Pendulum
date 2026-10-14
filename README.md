@@ -33,6 +33,6 @@ Built with an old linear slide and an Arduino Mega.
 
 ## Code that's present but does nothing to the control
 
-1. Cart speed and pendulum speed are calculated as averages over the last 400 cycles, but the PIDs never use them.
+1. Cart speed and pendulum speed are calculated as averages over the last 400 cycles, but the PIDs never use them. May affect loop time. 
 2. The five 8000-element data-logging arrays are declared but never written to.
 3. Three other gain sets (PI only, PD only, and a tuning set) are commented out.
